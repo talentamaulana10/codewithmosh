@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import BindThis from './react/es6 refresser/bindingThis/BindThis';
+import ArF from './react/es6 refresser/arrowFunction/ArF';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <BindThis/>
+        <ArF/>
       </div>
     );
   }

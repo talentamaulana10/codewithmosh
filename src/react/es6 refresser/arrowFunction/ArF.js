@@ -1,12 +1,9 @@
 import React, { Component } from 'react'
 
-export default class Lvc extends Component {
-
-    
+export default class ArF extends Component {
   render() {
-      for(var i = 0; i<5;i++){
-          console.log(i)
-      }
+      const myFunction = number => number*number;
+      console.log(myFunction(5))
     return (
       <div>
         <h1>hello world</h1>
