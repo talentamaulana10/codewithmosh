@@ -1,17 +1,17 @@
 import React, { Component } from 'react'
 
 export default class Lvc extends Component {
-   
-    Let=()=>{
-        for(let i = 0 ; i<=10; i++){
-            console.log(i)
-        }
+    Var=()=>{
+       const x = 6;
+       x = 3;
+       console.log(x)
     }
     
   render() {
     return (
       <div>
-        {this.Let()}
+        {this.Var()}
+        <h1>hello world</h1>
       </div>
     )
   }
