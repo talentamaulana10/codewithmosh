@@ -1,16 +1,21 @@
 import React, { Component } from 'react'
 
 export default class Lvc extends Component {
-    Var=()=>{
-       const x = 6;
-       x = 3;
-       console.log(x)
+    myFunction=()=>{
+      var person ={
+          name:"talenta",
+          walk(){},
+          talk(){}, 
+      };
+      const tata =  person.name;
+      console.log(tata)
     }
+
     
   render() {
     return (
       <div>
-        {this.Var()}
+        {this.myFunction()}
         <h1>hello world</h1>
       </div>
     )
