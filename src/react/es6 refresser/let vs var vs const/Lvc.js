@@ -7,8 +7,8 @@ export default class Lvc extends Component {
           walk(){},
           talk(){}, 
       };
-      const tata =  person.name;
-      console.log(tata)
+      const fungsi = person.walk();
+      console.log(fungsi)
     }
 
     
