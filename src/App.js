@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import AfaT from './react/es6 refresser/arrowFunctionAndThis/AfaT';
+import AmM from './react/es6 refresser/array.mapMethod/AmM';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <AfaT/>
+        <AmM/>
       </div>
     );
   }
