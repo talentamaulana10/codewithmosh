@@ -3,12 +3,13 @@ import React, { Component } from 'react'
 export default class Lvc extends Component {
     myFunction=()=>{
       var person ={
-          name:"talenta",
+          name:"talent",
           walk(){},
           talk(){}, 
       };
-      person["name"] = "jhon"
-      console.log(person.name)
+     const target = "name";
+     person[target.value] = "talentaaa"
+     console.log(person.name)
     }
 
     
