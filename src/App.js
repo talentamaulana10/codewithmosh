@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import AmM from './react/es6 refresser/array.mapMethod/AmM';
+import Odt from './react/es6 refresser/objectDestructuring/Odt';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <AmM/>
+        <Odt/>
       </div>
     );
   }
