@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Odt from './react/es6 refresser/objectDestructuring/Odt';
+import SpreadOperator from './react/es6 refresser/spreadOperator/spreadOperator';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Odt/>
+        <SpreadOperator/>
       </div>
     );
   }
