@@ -2,11 +2,11 @@ import React, { Component } from 'react'
 
 export default class spreadOperator extends Component {
   render() {
-      const first= [1,2,3];
-      const second= [2,3,4];
-      const clone= [...first,...second];
-      console.log(clone)
-      
+        const first = {name:"talenta"}
+        const second = {job:"student"}
+
+        const combined ={...first,...second,location:"indonesia"}
+        console.log(combined)
     return (
       <div>
         <h1>hello world</h1>
