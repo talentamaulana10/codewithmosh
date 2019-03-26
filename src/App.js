@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-
-import Lvc from './react/es6 refresser/let vs var vs const/Lvc';
+import TObject from './react/es6 refresser/object/Object';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Lvc/>
+        <TObject/>
       </div>
     );
   }
