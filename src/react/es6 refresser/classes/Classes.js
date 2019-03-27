@@ -3,14 +3,17 @@ import React, { Component } from 'react'
 export default class Classes extends Component {
   render() {
     class Person {
-        constructor(name){
-          this.name=name;
-        }
-        walk(){
-          console.log("walk")
-        }
+      constructor(name) {
+       this.name = name;
       }
   
+    walk() {
+          console.log("walk");
+      }
+  }
+  
+  const person = new Person('talenta')
+  console.log(person.name);
     return (
       <div>
         <h1>hello world</h1>
