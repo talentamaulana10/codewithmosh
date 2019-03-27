@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import TheScreen from "./react/component/updatingState/Counter";
+import TheScreen from "./react/component/PassingEventArguments/Counter";
 
 class App extends Component {
   render() {
