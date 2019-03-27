@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import TheScreen from "./react/component/BindingEventHandlers/Counter";
+import TheScreen from "./react/component/updatingState/Counter";
 
 class App extends Component {
   render() {
