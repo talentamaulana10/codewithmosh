@@ -1,21 +1,23 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 export default class Counter extends Component {
-    state={
-        count:0
-    }
-    formatCount(){
-        const { count } = this.state
-        const x = <h1>Zero</h1>
-        return count === 0 ? x:count
-    }
+  state = {
+    count: 0
+  };
+  formatCount() {
+    const { count } = this.state;
+
+    return count === 0 ? "Zero" : count;
+  }
+  styles = {};
   render() {
     return (
       <div>
-        <span>{this.formatCount()}</span>
-        <button>press me</button>
+        <span className="badge badge-primary m-2" style={this.styles}>
+          {this.formatCount()}
+        </span>
+        <button className="btn btn-secondary btn-sm">press me</button>
       </div>
-    )
+    );
   }
-  
 }
