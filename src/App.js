@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import Counter from "./react/component/Counter/Counter";
+import TheScreen from "./react/component/renderingList/Counter";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Counter />
+        <TheScreen />
       </div>
     );
   }
