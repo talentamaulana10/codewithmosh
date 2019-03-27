@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import TheScreen from "./react/component/renderingList/Counter";
+import TheScreen from "./react/component/conditionalRendering/Counter";
 
 class App extends Component {
   render() {
