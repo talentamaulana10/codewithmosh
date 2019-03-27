@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Classes from './react/es6 refresser/classes/Classes';
+import Fungsi from './react/es6 refresser/Inheritance/index'
 
 class App extends Component {
   render() {
     
     return (
       <div>
-        <Classes/>
+        <Fungsi/>
       </div>
     );
   }
