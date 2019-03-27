@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Fungsi from './react/es6 refresser/modules/index'
+import Counter from './react/component/Counter/Counter';
 
 class App extends Component {
   render() {
     
     return (
       <div>
-        <Fungsi/>
+        <Counter/>
       </div>
     );
   }
