@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Teacher } from './teacher'
+import { Promoted,Teacher } from './teacher'
 
 export default class index extends Component {
   render() {
