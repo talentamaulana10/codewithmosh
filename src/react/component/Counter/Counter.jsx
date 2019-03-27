@@ -5,6 +5,7 @@ export default class Counter extends Component {
     return (
       <div>
         <h1>Hello world</h1>
+        <button>press me</button>
       </div>
     )
   }
